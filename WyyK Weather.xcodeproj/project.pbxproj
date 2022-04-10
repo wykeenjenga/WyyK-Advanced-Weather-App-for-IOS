@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFC1D982802F2710032BD59 /* WyyK_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC1D972802F2710032BD59 /* WyyK_WeatherApp.swift */; };
+		CEFC1D9A2802F2710032BD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC1D992802F2710032BD59 /* ContentView.swift */; };
+		CEFC1D9C2802F27B0032BD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFC1D9B2802F27B0032BD59 /* Assets.xcassets */; };
+		CEFC1D9F2802F27B0032BD59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFC1D9E2802F27B0032BD59 /* Preview Assets.xcassets */; };
+		CEFC1DA92802F27B0032BD59 /* WyyK_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC1DA82802F27B0032BD59 /* WyyK_WeatherTests.swift */; };
+		CEFC1DB32802F27B0032BD59 /* WyyK_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC1DB22802F27B0032BD59 /* WyyK_WeatherUITests.swift */; };
+		CEFC1DB52802F27B0032BD59 /* WyyK_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC1DB42802F27B0032BD59 /* WyyK_WeatherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFC1DA52802F27B0032BD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFC1D8C2802F2710032BD59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFC1D932802F2710032BD59;
+			remoteInfo = "WyyK Weather";
+		};
+		CEFC1DAF2802F27B0032BD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFC1D8C2802F2710032BD59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFC1D932802F2710032BD59;
+			remoteInfo = "WyyK Weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFC1D942802F2710032BD59 /* WyyK Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WyyK Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC1D972802F2710032BD59 /* WyyK_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WyyK_WeatherApp.swift; sourceTree = "<group>"; };
+		CEFC1D992802F2710032BD59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEFC1D9B2802F27B0032BD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFC1D9E2802F27B0032BD59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEFC1DA42802F27B0032BD59 /* WyyK WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WyyK WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC1DA82802F27B0032BD59 /* WyyK_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WyyK_WeatherTests.swift; sourceTree = "<group>"; };
+		CEFC1DAE2802F27B0032BD59 /* WyyK WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WyyK WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC1DB22802F27B0032BD59 /* WyyK_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WyyK_WeatherUITests.swift; sourceTree = "<group>"; };
+		CEFC1DB42802F27B0032BD59 /* WyyK_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WyyK_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFC1D912802F2710032BD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DA12802F27B0032BD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DAB2802F27B0032BD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFC1D8B2802F2710032BD59 = {
+			isa = PBXGroup;
+			children = (
+				CEFC1D962802F2710032BD59 /* WyyK Weather */,
+				CEFC1DA72802F27B0032BD59 /* WyyK WeatherTests */,
+				CEFC1DB12802F27B0032BD59 /* WyyK WeatherUITests */,
+				CEFC1D952802F2710032BD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFC1D952802F2710032BD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC1D942802F2710032BD59 /* WyyK Weather.app */,
+				CEFC1DA42802F27B0032BD59 /* WyyK WeatherTests.xctest */,
+				CEFC1DAE2802F27B0032BD59 /* WyyK WeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFC1D962802F2710032BD59 /* WyyK Weather */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC1D972802F2710032BD59 /* WyyK_WeatherApp.swift */,
+				CEFC1D992802F2710032BD59 /* ContentView.swift */,
+				CEFC1D9B2802F27B0032BD59 /* Assets.xcassets */,
+				CEFC1D9D2802F27B0032BD59 /* Preview Content */,
+			);
+			path = "WyyK Weather";
+			sourceTree = "<group>";
+		};
+		CEFC1D9D2802F27B0032BD59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC1D9E2802F27B0032BD59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEFC1DA72802F27B0032BD59 /* WyyK WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC1DA82802F27B0032BD59 /* WyyK_WeatherTests.swift */,
+			);
+			path = "WyyK WeatherTests";
+			sourceTree = "<group>";
+		};
+		CEFC1DB12802F27B0032BD59 /* WyyK WeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC1DB22802F27B0032BD59 /* WyyK_WeatherUITests.swift */,
+				CEFC1DB42802F27B0032BD59 /* WyyK_WeatherUITestsLaunchTests.swift */,
+			);
+			path = "WyyK WeatherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFC1D932802F2710032BD59 /* WyyK Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC1DB82802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK Weather" */;
+			buildPhases = (
+				CEFC1D902802F2710032BD59 /* Sources */,
+				CEFC1D912802F2710032BD59 /* Frameworks */,
+				CEFC1D922802F2710032BD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WyyK Weather";
+			productName = "WyyK Weather";
+			productReference = CEFC1D942802F2710032BD59 /* WyyK Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFC1DA32802F27B0032BD59 /* WyyK WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC1DBB2802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK WeatherTests" */;
+			buildPhases = (
+				CEFC1DA02802F27B0032BD59 /* Sources */,
+				CEFC1DA12802F27B0032BD59 /* Frameworks */,
+				CEFC1DA22802F27B0032BD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFC1DA62802F27B0032BD59 /* PBXTargetDependency */,
+			);
+			name = "WyyK WeatherTests";
+			productName = "WyyK WeatherTests";
+			productReference = CEFC1DA42802F27B0032BD59 /* WyyK WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFC1DAD2802F27B0032BD59 /* WyyK WeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC1DBE2802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK WeatherUITests" */;
+			buildPhases = (
+				CEFC1DAA2802F27B0032BD59 /* Sources */,
+				CEFC1DAB2802F27B0032BD59 /* Frameworks */,
+				CEFC1DAC2802F27B0032BD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFC1DB02802F27B0032BD59 /* PBXTargetDependency */,
+			);
+			name = "WyyK WeatherUITests";
+			productName = "WyyK WeatherUITests";
+			productReference = CEFC1DAE2802F27B0032BD59 /* WyyK WeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFC1D8C2802F2710032BD59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CEFC1D932802F2710032BD59 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CEFC1DA32802F27B0032BD59 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CEFC1D932802F2710032BD59;
+					};
+					CEFC1DAD2802F27B0032BD59 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CEFC1D932802F2710032BD59;
+					};
+				};
+			};
+			buildConfigurationList = CEFC1D8F2802F2710032BD59 /* Build configuration list for PBXProject "WyyK Weather" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFC1D8B2802F2710032BD59;
+			productRefGroup = CEFC1D952802F2710032BD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFC1D932802F2710032BD59 /* WyyK Weather */,
+				CEFC1DA32802F27B0032BD59 /* WyyK WeatherTests */,
+				CEFC1DAD2802F27B0032BD59 /* WyyK WeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFC1D922802F2710032BD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC1D9F2802F27B0032BD59 /* Preview Assets.xcassets in Resources */,
+				CEFC1D9C2802F27B0032BD59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DA22802F27B0032BD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DAC2802F27B0032BD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFC1D902802F2710032BD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC1D9A2802F2710032BD59 /* ContentView.swift in Sources */,
+				CEFC1D982802F2710032BD59 /* WyyK_WeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DA02802F27B0032BD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC1DA92802F27B0032BD59 /* WyyK_WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC1DAA2802F27B0032BD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC1DB32802F27B0032BD59 /* WyyK_WeatherUITests.swift in Sources */,
+				CEFC1DB52802F27B0032BD59 /* WyyK_WeatherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFC1DA62802F27B0032BD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFC1D932802F2710032BD59 /* WyyK Weather */;
+			targetProxy = CEFC1DA52802F27B0032BD59 /* PBXContainerItemProxy */;
+		};
+		CEFC1DB02802F27B0032BD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFC1D932802F2710032BD59 /* WyyK Weather */;
+			targetProxy = CEFC1DAF2802F27B0032BD59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEFC1DB62802F27B0032BD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFC1DB72802F27B0032BD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFC1DB92802F27B0032BD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WyyK Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFC1DBA2802F27B0032BD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WyyK Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFC1DBC2802F27B0032BD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyyK Weather.app/WyyK Weather";
+			};
+			name = Debug;
+		};
+		CEFC1DBD2802F27B0032BD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyyK Weather.app/WyyK Weather";
+			};
+			name = Release;
+		};
+		CEFC1DBF2802F27B0032BD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WyyK Weather";
+			};
+			name = Debug;
+		};
+		CEFC1DC02802F27B0032BD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J69KB9AJDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyyksoftsinc.WyyK-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WyyK Weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFC1D8F2802F2710032BD59 /* Build configuration list for PBXProject "WyyK Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC1DB62802F27B0032BD59 /* Debug */,
+				CEFC1DB72802F27B0032BD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC1DB82802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC1DB92802F27B0032BD59 /* Debug */,
+				CEFC1DBA2802F27B0032BD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC1DBB2802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC1DBC2802F27B0032BD59 /* Debug */,
+				CEFC1DBD2802F27B0032BD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC1DBE2802F27B0032BD59 /* Build configuration list for PBXNativeTarget "WyyK WeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC1DBF2802F27B0032BD59 /* Debug */,
+				CEFC1DC02802F27B0032BD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFC1D8C2802F2710032BD59 /* Project object */;
+}
